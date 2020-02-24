@@ -14,6 +14,7 @@ public class Langford {
         }
         return false;
     }
+
     public static void print(int input) {
      // create an int array of size = left shift input no 1 bit.
         int array[] = new int[input << 1];
