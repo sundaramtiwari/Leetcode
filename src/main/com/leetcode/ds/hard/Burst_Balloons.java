@@ -3,11 +3,7 @@
  */
 package com.leetcode.ds.hard;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author s0t010t

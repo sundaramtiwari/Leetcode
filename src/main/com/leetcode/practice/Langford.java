@@ -1,3 +1,5 @@
+package com.leetcode.practice;
+
 public class Langford {
     private static boolean print(int array[], int k, int n) {
         if (k == n + 1) {
@@ -16,7 +18,7 @@ public class Langford {
     }
 
     public static void print(int input) {
-     // create an int array of size = left shift input no 1 bit.
+        // create an int array of size = left shift input no 1 bit.
         int array[] = new int[input << 1];
         boolean ret = print(array, 1, input);
         if (ret) {
@@ -28,7 +30,8 @@ public class Langford {
             System.out.println("Sorry");
         }
     }
+
     public static void main(String args[]) {
-		print(7);
+        print(7);
     }
 }
